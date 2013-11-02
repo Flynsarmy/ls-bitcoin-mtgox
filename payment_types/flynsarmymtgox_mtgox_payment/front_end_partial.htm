@@ -1,0 +1,6 @@
+<p class="top_offset">
+	Please click the button to pay with Bitcoin.
+</p>
+<?= open_form() ?>
+	<input type="submit" value="Pay with Bitcoin" onclick="return $(this).getForm().sendRequest('shop:on_pay')" />
+<?= close_form () ?>

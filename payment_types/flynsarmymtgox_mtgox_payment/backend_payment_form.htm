@@ -1,0 +1,6 @@
+<p class="top_offset">
+	Please click the button to pay with Bitcoin.
+</p>
+<?= open_form() ?>
+	<?= backend_button('Pay with Bitcoin', array('href'=>"#", 'onclick'=>"$(this).getForm().sendPhpr('pay_onSubmit'); return false;")) ?>
+<?= close_form () ?>
